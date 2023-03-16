@@ -7,32 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		841837AC29AD52ED004FA768 /* EdTechPlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841837AB29AD52ED004FA768 /* EdTechPlatformApp.swift */; };
-		841837AE29AD52ED004FA768 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841837AD29AD52ED004FA768 /* HomeView.swift */; };
-		841837B029AD52F2004FA768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841837AF29AD52F2004FA768 /* Assets.xcassets */; };
-		841837B329AD52F2004FA768 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841837B229AD52F2004FA768 /* Preview Assets.xcassets */; };
-		841837C029AD54FB004FA768 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841837BF29AD54FB004FA768 /* ContentModel.swift */; };
-		841837C329AD57DB004FA768 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 841837C229AD57DB004FA768 /* data.json */; };
-		841837C729AFF1B0004FA768 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841837C629AFF1B0004FA768 /* Models.swift */; };
-		841837C929B690EE004FA768 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841837C829B690EE004FA768 /* HomeViewRow.swift */; };
-		841837CB29B930D9004FA768 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841837CA29B930D8004FA768 /* ContentView.swift */; };
+		841837D929C0FC0B004FA768 /* GnoME_ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841837D829C0FC0B004FA768 /* GnoME_ScreensApp.swift */; };
+		841837DB29C0FC0B004FA768 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841837DA29C0FC0B004FA768 /* ContentView.swift */; };
+		841837DD29C0FC10004FA768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841837DC29C0FC10004FA768 /* Assets.xcassets */; };
+		841837E029C0FC10004FA768 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841837DF29C0FC10004FA768 /* Preview Assets.xcassets */; };
+		841837E729C133F5004FA768 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841837E629C133F5004FA768 /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		841837A829AD52ED004FA768 /* EdTechPlatformApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdTechPlatformApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		841837AB29AD52ED004FA768 /* EdTechPlatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdTechPlatformApp.swift; sourceTree = "<group>"; };
-		841837AD29AD52ED004FA768 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		841837AF29AD52F2004FA768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		841837B229AD52F2004FA768 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		841837BF29AD54FB004FA768 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
-		841837C229AD57DB004FA768 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		841837C629AFF1B0004FA768 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		841837C829B690EE004FA768 /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
-		841837CA29B930D8004FA768 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		841837D529C0FC0B004FA768 /* GnoME-Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GnoME-Screens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		841837D829C0FC0B004FA768 /* GnoME_ScreensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnoME_ScreensApp.swift; sourceTree = "<group>"; };
+		841837DA29C0FC0B004FA768 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		841837DC29C0FC10004FA768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841837DF29C0FC10004FA768 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		841837E629C133F5004FA768 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		841837A529AD52ED004FA768 /* Frameworks */ = {
+		841837D229C0FC0B004FA768 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,122 +34,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8418379F29AD52ED004FA768 = {
+		841837CC29C0FC0B004FA768 = {
 			isa = PBXGroup;
 			children = (
-				841837C529AFF153004FA768 /* Models */,
-				841837AA29AD52ED004FA768 /* EdTechPlatformApp */,
-				841837A929AD52ED004FA768 /* Products */,
+				841837D729C0FC0B004FA768 /* GnoME-Screens */,
+				841837D629C0FC0B004FA768 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		841837A929AD52ED004FA768 /* Products */ = {
+		841837D629C0FC0B004FA768 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				841837A829AD52ED004FA768 /* EdTechPlatformApp.app */,
+				841837D529C0FC0B004FA768 /* GnoME-Screens.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		841837AA29AD52ED004FA768 /* EdTechPlatformApp */ = {
+		841837D729C0FC0B004FA768 /* GnoME-Screens */ = {
 			isa = PBXGroup;
 			children = (
-				841837AB29AD52ED004FA768 /* EdTechPlatformApp.swift */,
-				841837BB29AD5467004FA768 /* Views */,
-				841837BE29AD548D004FA768 /* ViewModels */,
-				841837BC29AD546F004FA768 /* Resources */,
-				841837BA29AD543A004FA768 /* Helpers */,
-				841837AF29AD52F2004FA768 /* Assets.xcassets */,
-				841837B129AD52F2004FA768 /* Preview Content */,
+				841837D829C0FC0B004FA768 /* GnoME_ScreensApp.swift */,
+				841837DA29C0FC0B004FA768 /* ContentView.swift */,
+				841837DC29C0FC10004FA768 /* Assets.xcassets */,
+				841837DE29C0FC10004FA768 /* Preview Content */,
+				841837E629C133F5004FA768 /* HomePage.swift */,
 			);
-			path = EdTechPlatformApp;
+			path = "GnoME-Screens";
 			sourceTree = "<group>";
 		};
-		841837B129AD52F2004FA768 /* Preview Content */ = {
+		841837DE29C0FC10004FA768 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				841837B229AD52F2004FA768 /* Preview Assets.xcassets */,
+				841837DF29C0FC10004FA768 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		841837BA29AD543A004FA768 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		841837BB29AD5467004FA768 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				841837AD29AD52ED004FA768 /* HomeView.swift */,
-				841837C829B690EE004FA768 /* HomeViewRow.swift */,
-				841837CA29B930D8004FA768 /* ContentView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		841837BC29AD546F004FA768 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				841837C229AD57DB004FA768 /* data.json */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		841837BE29AD548D004FA768 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				841837BF29AD54FB004FA768 /* ContentModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		841837C529AFF153004FA768 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				841837C629AFF1B0004FA768 /* Models.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		841837A729AD52ED004FA768 /* EdTechPlatformApp */ = {
+		841837D429C0FC0B004FA768 /* GnoME-Screens */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 841837B629AD52F2004FA768 /* Build configuration list for PBXNativeTarget "EdTechPlatformApp" */;
+			buildConfigurationList = 841837E329C0FC10004FA768 /* Build configuration list for PBXNativeTarget "GnoME-Screens" */;
 			buildPhases = (
-				841837A429AD52ED004FA768 /* Sources */,
-				841837A529AD52ED004FA768 /* Frameworks */,
-				841837A629AD52ED004FA768 /* Resources */,
+				841837D129C0FC0B004FA768 /* Sources */,
+				841837D229C0FC0B004FA768 /* Frameworks */,
+				841837D329C0FC0B004FA768 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = EdTechPlatformApp;
-			productName = EdTechPlatformApp;
-			productReference = 841837A829AD52ED004FA768 /* EdTechPlatformApp.app */;
+			name = "GnoME-Screens";
+			productName = "GnoME-Screens";
+			productReference = 841837D529C0FC0B004FA768 /* GnoME-Screens.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		841837A029AD52ED004FA768 /* Project object */ = {
+		841837CD29C0FC0B004FA768 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					841837A729AD52ED004FA768 = {
+					841837D429C0FC0B004FA768 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 841837A329AD52ED004FA768 /* Build configuration list for PBXProject "EdTechPlatformApp" */;
+			buildConfigurationList = 841837D029C0FC0B004FA768 /* Build configuration list for PBXProject "GnoME-Screens" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -165,47 +113,43 @@
 				en,
 				Base,
 			);
-			mainGroup = 8418379F29AD52ED004FA768;
-			productRefGroup = 841837A929AD52ED004FA768 /* Products */;
+			mainGroup = 841837CC29C0FC0B004FA768;
+			productRefGroup = 841837D629C0FC0B004FA768 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				841837A729AD52ED004FA768 /* EdTechPlatformApp */,
+				841837D429C0FC0B004FA768 /* GnoME-Screens */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		841837A629AD52ED004FA768 /* Resources */ = {
+		841837D329C0FC0B004FA768 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841837B329AD52F2004FA768 /* Preview Assets.xcassets in Resources */,
-				841837C329AD57DB004FA768 /* data.json in Resources */,
-				841837B029AD52F2004FA768 /* Assets.xcassets in Resources */,
+				841837E029C0FC10004FA768 /* Preview Assets.xcassets in Resources */,
+				841837DD29C0FC10004FA768 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		841837A429AD52ED004FA768 /* Sources */ = {
+		841837D129C0FC0B004FA768 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841837AE29AD52ED004FA768 /* HomeView.swift in Sources */,
-				841837C929B690EE004FA768 /* HomeViewRow.swift in Sources */,
-				841837CB29B930D9004FA768 /* ContentView.swift in Sources */,
-				841837AC29AD52ED004FA768 /* EdTechPlatformApp.swift in Sources */,
-				841837C029AD54FB004FA768 /* ContentModel.swift in Sources */,
-				841837C729AFF1B0004FA768 /* Models.swift in Sources */,
+				841837DB29C0FC0B004FA768 /* ContentView.swift in Sources */,
+				841837E729C133F5004FA768 /* HomePage.swift in Sources */,
+				841837D929C0FC0B004FA768 /* GnoME_ScreensApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		841837B429AD52F2004FA768 /* Debug */ = {
+		841837E129C0FC10004FA768 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -265,7 +209,7 @@
 			};
 			name = Debug;
 		};
-		841837B529AD52F2004FA768 /* Release */ = {
+		841837E229C0FC10004FA768 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -319,14 +263,14 @@
 			};
 			name = Release;
 		};
-		841837B729AD52F2004FA768 /* Debug */ = {
+		841837E429C0FC10004FA768 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EdTechPlatformApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GnoME-Screens/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -339,7 +283,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Jacob-Rodriguez-Gambit-.EdTechPlatformApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacob-Rodriguez-Gambit-.GnoME-Screens";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -347,14 +291,14 @@
 			};
 			name = Debug;
 		};
-		841837B829AD52F2004FA768 /* Release */ = {
+		841837E529C0FC10004FA768 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EdTechPlatformApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GnoME-Screens/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -367,7 +311,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Jacob-Rodriguez-Gambit-.EdTechPlatformApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacob-Rodriguez-Gambit-.GnoME-Screens";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -378,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		841837A329AD52ED004FA768 /* Build configuration list for PBXProject "EdTechPlatformApp" */ = {
+		841837D029C0FC0B004FA768 /* Build configuration list for PBXProject "GnoME-Screens" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				841837B429AD52F2004FA768 /* Debug */,
-				841837B529AD52F2004FA768 /* Release */,
+				841837E129C0FC10004FA768 /* Debug */,
+				841837E229C0FC10004FA768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		841837B629AD52F2004FA768 /* Build configuration list for PBXNativeTarget "EdTechPlatformApp" */ = {
+		841837E329C0FC10004FA768 /* Build configuration list for PBXNativeTarget "GnoME-Screens" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				841837B729AD52F2004FA768 /* Debug */,
-				841837B829AD52F2004FA768 /* Release */,
+				841837E429C0FC10004FA768 /* Debug */,
+				841837E529C0FC10004FA768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 841837A029AD52ED004FA768 /* Project object */;
+	rootObject = 841837CD29C0FC0B004FA768 /* Project object */;
 }
