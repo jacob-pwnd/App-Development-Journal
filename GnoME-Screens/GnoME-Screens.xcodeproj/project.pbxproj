@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		377CE85D29C7AFFB003B16D9 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377CE85C29C7AFFB003B16D9 /* Profile.swift */; };
 		841837D929C0FC0B004FA768 /* GnoME_ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841837D829C0FC0B004FA768 /* GnoME_ScreensApp.swift */; };
 		841837DB29C0FC0B004FA768 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841837DA29C0FC0B004FA768 /* ContentView.swift */; };
 		841837DD29C0FC10004FA768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841837DC29C0FC10004FA768 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		377CE85C29C7AFFB003B16D9 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		841837D529C0FC0B004FA768 /* GnoME-Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GnoME-Screens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		841837D829C0FC0B004FA768 /* GnoME_ScreensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnoME_ScreensApp.swift; sourceTree = "<group>"; };
 		841837DA29C0FC0B004FA768 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,11 +55,12 @@
 		841837D729C0FC0B004FA768 /* GnoME-Screens */ = {
 			isa = PBXGroup;
 			children = (
+				377CE85C29C7AFFB003B16D9 /* Profile.swift */,
+				841837E629C133F5004FA768 /* HomePage.swift */,
 				841837D829C0FC0B004FA768 /* GnoME_ScreensApp.swift */,
 				841837DA29C0FC0B004FA768 /* ContentView.swift */,
 				841837DC29C0FC10004FA768 /* Assets.xcassets */,
 				841837DE29C0FC10004FA768 /* Preview Content */,
-				841837E629C133F5004FA768 /* HomePage.swift */,
 			);
 			path = "GnoME-Screens";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				841837DB29C0FC0B004FA768 /* ContentView.swift in Sources */,
+				377CE85D29C7AFFB003B16D9 /* Profile.swift in Sources */,
 				841837E729C133F5004FA768 /* HomePage.swift in Sources */,
 				841837D929C0FC0B004FA768 /* GnoME_ScreensApp.swift in Sources */,
 			);
