@@ -74,7 +74,7 @@ struct ContentView: View {
                     }
                 }
                 .onAppear {
-                    async {
+                    Task.init {
                         do {
                             let weatherData = try await weatherManager.getCurrentWeather(latitude: 30.62798, longitude: -96.33441)
                             weather = weatherData
@@ -86,8 +86,7 @@ struct ContentView: View {
             }
             
 
-  //preview will not be made intp app. It tells you what you are previewing on the right
-    struct ContentView_Previews: PreviewProvider {
+      struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
             ContentView()
         }
