@@ -1,8 +1,8 @@
 //
-//  ContentView.swift
-//  EdTechPlatformApp
+//  HomeView.swift
+//  GnoME-Screens
 //
-//  Created by admin on 2/27/23.
+//  Created by user232149 on 3/31/23.
 //
 
 import SwiftUI
@@ -20,7 +20,7 @@ struct HomeView: View {
                             
                             VStack{
                                 
-                                NavigationLink(destination: ContentView()
+                                NavigationLink(destination: ContentView1()
                                     .onAppear(perform: {model.beginModule(module.id)})) {
                                     HomeViewRow(image: module.content.image, title: "Learn \(module.category)", description: module.content.description, count: "\(module.content.lessons.count) Lessons", time: module.content.time)
 
@@ -97,3 +97,5 @@ struct HomeView_Previews: PreviewProvider {
             .environmentObject(ContentModel())
     }
 }
+
+
