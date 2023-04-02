@@ -85,7 +85,7 @@ struct Profile: View {
                         //Divider After Bio
                         Old_Post_1()
                         Old_Post_2()
-                        
+                        Old_Post_3()
                         
                     }
                     .padding(.top, 100) // Leave space for the banner

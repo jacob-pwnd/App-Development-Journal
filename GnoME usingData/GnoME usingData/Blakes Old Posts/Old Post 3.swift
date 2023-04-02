@@ -1,35 +1,30 @@
 //
-//  Old Post 1.swift
+//  Old Post 3.swift
 //  GnoME usingData
 //
-//  Created by user232149 on 4/1/23.
+//  Created by user232149 on 4/2/23.
 //
 
 import SwiftUI
 
-struct Old_Post_1: View {
+struct Old_Post_3: View {
     // Define a variable to hold the post data
     let post: [String: Any] = [
-        "question": "What are you looking forward to?",
+        "question": "Do you have a favorite dance move?",
         "time": "11:00 AM",
-        "date": "2023-03-31",
-        "answer": "I have an interview on Tuesday and I can't wait to dress to impress",
-        "likes": 2,
+        "date": "2023-01-31",
+        "answer": "No but one time I faked a seizure to get a girl's number",
+        "likes": 5,
         "comments": [
             [
                 "userName": "Niyati",
-                "commentText": "You got this Blake!!!",
+                "commentText": "Hardest thing to believe is that you got her number",
                 "profilePic": "Niyati"
             ],
             [
                 "userName": "Naysa",
-                "commentText": "Excited?!! I get so nervous",
+                "commentText": "I heard she gave you a fake number",
                 "profilePic": "Naysa"
-            ],
-            [
-                "userName": "Jackson",
-                "commentText": "He's basically hired",
-                "profilePic": "Jackson"
             ]
         ]
     ]
@@ -59,20 +54,21 @@ struct Old_Post_1: View {
                             .padding(.leading, 150)
                             .padding(.bottom, 5)
                                
-                
+                    VStack (alignment: .leading) {
                         Text(post["question"] as! String)
-                        .font(.title2)
+                            .font(.title2)
                             .fontWeight(.medium)
-                            .padding(.trailing)
                             .padding(.bottom, 4)
-                    
-                    Text(post["answer"] as! String)
-                        .font(.title)
-                        .fontWeight(.bold)
-                        .foregroundColor(.black)
-                        .padding(.horizontal, 10)
-                        .padding(.leading, 35)
-                    // Display post answer
+                            .padding(.leading)
+                        
+                        Text(post["answer"] as! String)
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(.black)
+                            .padding(.horizontal, 10)
+                            .padding(.leading, 35)
+                        // Display post answer
+                    }
                     
                     HStack {
                         Image("Mushroom 1")
@@ -152,9 +148,8 @@ struct Old_Post_1: View {
     }
 }
 
-
-struct Old_Post_1_Previews: PreviewProvider {
+struct Old_Post_3_Previews: PreviewProvider {
     static var previews: some View {
-        Old_Post_1()
+        Old_Post_3()
     }
 }

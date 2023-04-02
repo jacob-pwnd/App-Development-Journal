@@ -20,6 +20,9 @@ struct HomePage: View {
                         
                         Question()
                         BlakePost()
+                        NaysaPost()
+                        JacobPost()
+                        HannahPost()
                         
                     }
                     .padding(.top, 100) // Leave space for the banner

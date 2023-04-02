@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37553D6A29D9FE7600F3ED48 /* Old Post 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37553D6929D9FE7600F3ED48 /* Old Post 3.swift */; };
+		37553D6C29DA004C00F3ED48 /* NaysaPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37553D6B29DA004C00F3ED48 /* NaysaPost.swift */; };
+		37553D6F29DA049500F3ED48 /* JacobPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37553D6E29DA049500F3ED48 /* JacobPost.swift */; };
+		37553D7129DA061D00F3ED48 /* HannahPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37553D7029DA061C00F3ED48 /* HannahPost.swift */; };
 		378779E329D90ABC00F8A2BA /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378779E229D90ABC00F8A2BA /* HomePage.swift */; };
 		378779E629D92CE900F8A2BA /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378779E529D92CE900F8A2BA /* Profile.swift */; };
 		378779E829D92D9400F8A2BA /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378779E729D92D9400F8A2BA /* Game.swift */; };
@@ -23,6 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37553D6929D9FE7600F3ED48 /* Old Post 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Old Post 3.swift"; sourceTree = "<group>"; };
+		37553D6B29DA004C00F3ED48 /* NaysaPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaysaPost.swift; sourceTree = "<group>"; };
+		37553D6E29DA049500F3ED48 /* JacobPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JacobPost.swift; sourceTree = "<group>"; };
+		37553D7029DA061C00F3ED48 /* HannahPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HannahPost.swift; sourceTree = "<group>"; };
 		378779E229D90ABC00F8A2BA /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		378779E529D92CE900F8A2BA /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		378779E729D92D9400F8A2BA /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
@@ -52,6 +60,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37553D6629D9FE1F00F3ED48 /* Blakes Old Posts */ = {
+			isa = PBXGroup;
+			children = (
+				378779EB29D950BC00F8A2BA /* Old Post 1.swift */,
+				378779ED29D9562E00F8A2BA /* Old Post 2.swift */,
+				37553D6929D9FE7600F3ED48 /* Old Post 3.swift */,
+			);
+			path = "Blakes Old Posts";
+			sourceTree = "<group>";
+		};
+		37553D6D29DA006100F3ED48 /* Today's Post */ = {
+			isa = PBXGroup;
+			children = (
+				37553D6B29DA004C00F3ED48 /* NaysaPost.swift */,
+				37553D6E29DA049500F3ED48 /* JacobPost.swift */,
+				37553D7029DA061C00F3ED48 /* HannahPost.swift */,
+			);
+			path = "Today's Post";
+			sourceTree = "<group>";
+		};
 		378779E429D90FA000F8A2BA /* App Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,9 +113,9 @@
 				378779E429D90FA000F8A2BA /* App Screens */,
 				37E014E029D8C5E9007845D8 /* Question.swift */,
 				37E014DA29D88B12007845D8 /* BlakePost.swift */,
-				378779EB29D950BC00F8A2BA /* Old Post 1.swift */,
-				378779ED29D9562E00F8A2BA /* Old Post 2.swift */,
 				3793293A29D7EB3700C5A86F /* GnoME_usingDataApp.swift */,
+				37553D6629D9FE1F00F3ED48 /* Blakes Old Posts */,
+				37553D6D29DA006100F3ED48 /* Today's Post */,
 				3793293E29D7EB3800C5A86F /* Assets.xcassets */,
 				3793294029D7EB3800C5A86F /* GnoME_usingData.entitlements */,
 				3793294129D7EB3800C5A86F /* Preview Content */,
@@ -176,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37553D7129DA061D00F3ED48 /* HannahPost.swift in Sources */,
 				37E014DB29D88B12007845D8 /* BlakePost.swift in Sources */,
 				378779E829D92D9400F8A2BA /* Game.swift in Sources */,
 				378779E629D92CE900F8A2BA /* Profile.swift in Sources */,
@@ -185,8 +214,11 @@
 				37E014E129D8C5E9007845D8 /* Question.swift in Sources */,
 				3793293D29D7EB3700C5A86F /* ContentView.swift in Sources */,
 				378779E329D90ABC00F8A2BA /* HomePage.swift in Sources */,
+				37553D6F29DA049500F3ED48 /* JacobPost.swift in Sources */,
+				37553D6C29DA004C00F3ED48 /* NaysaPost.swift in Sources */,
 				3793293B29D7EB3700C5A86F /* GnoME_usingDataApp.swift in Sources */,
 				378779EC29D950BC00F8A2BA /* Old Post 1.swift in Sources */,
+				37553D6A29D9FE7600F3ED48 /* Old Post 3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

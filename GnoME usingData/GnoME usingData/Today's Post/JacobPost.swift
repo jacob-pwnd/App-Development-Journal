@@ -1,35 +1,38 @@
 //
-//  Old Post 2.swift
+//  JacobPost.swift
 //  GnoME usingData
 //
-//  Created by user232149 on 4/1/23.
+//  Created by user232149 on 4/2/23.
 //
 
 import SwiftUI
 
-struct Old_Post_2: View {
+struct JacobPost: View {
     // Define a variable to hold the post data
     let post: [String: Any] = [
-        "question": "What's your biggest fear?",
+        "profilePic": "Jacob",
+        "userName": "Jacob",
         "time": "11:00 AM",
-        "date": "2023-02-31",
-        "answer": "Women",
-        "likes": 2,
+        "date": "2023-03-31",
+        "answer": "The sweet embrace of death",
+        "likes": 8,
         "comments": [
             [
-                "userName": "Niyati",
-                "commentText": "I thought you'd be afraid of mirrors",
-                "profilePic": "Niyati"
+                "userName": "Blake",
+                "commentText": "Do you need a hug?",
+                "profilePic": "Blake"
             ],
             [
-                "userName": "Naysa",
-                "commentText": "The venmo offer still stands",
-                "profilePic": "Naysa"
+                "userName": "Niyati",
+                "commentText": "When was the last time you went outside",
+                "profilePic": "Niyati"
+                
+                
             ],
             [
                 "userName": "Jackson",
-                "commentText": "Roast him Niya",
-                "profilePic": "Jackson"
+                "commentText": "what",
+                "profilePic": "Are you okay"
             ]
         ]
     ]
@@ -53,25 +56,30 @@ struct Old_Post_2: View {
                 //.padding(.horizontal, -8)
                 
                 VStack{
-                        Text("\(post["time"] as! String) - \(post["date"] as! String)")
-                            .font(.subheadline)
-                            .foregroundColor(.black)
-                            .padding(.leading, 150)
-                            .padding(.bottom, 5)
+                    HStack{
+                        // Display profile picture
+                        Image((post["profilePic"]!) as! String)
+                            .frame(width: 50, height: 50)
+                        VStack(alignment: .leading) {
+                            Text(post["userName"] as! String)
+                                .font(.headline)
+                            Text("\(post["time"] as! String) - \(post["date"] as! String)")
+                                .font(.subheadline)
+                                .foregroundColor(.black)
                                
-                
-                        Text(post["question"] as! String)
-                        .font(.title2)
-                            .fontWeight(.medium)
-                            .padding(.trailing)
-                            .padding(.bottom, 4)
+                        }// Display username and post time
+                    }
+                    .padding(.trailing, 100)
+                    
+                    
                     
                     Text(post["answer"] as! String)
                         .font(.title)
                         .fontWeight(.bold)
                         .foregroundColor(.black)
-                        .padding(.horizontal, 10)
-                        .padding(.leading, 35)
+                        .padding()
+                        .padding(.horizontal, 8)
+                        .padding(.leading, 25)
                     // Display post answer
                     
                     HStack {
@@ -152,8 +160,8 @@ struct Old_Post_2: View {
     }
 }
 
-struct Old_Post_2_Previews: PreviewProvider {
+struct JacobPost_Previews: PreviewProvider {
     static var previews: some View {
-        Old_Post_2()
+        JacobPost()
     }
 }

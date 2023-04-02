@@ -43,7 +43,11 @@ struct Question: View {
                             .font(.largeTitle)
                             .foregroundColor(.black)
                       
-                        if let question = questions[dateFormatter.string(from: Date())] {
+                Text(questions["2023-04-01"] as! String)
+                    .font(.title)
+                    .foregroundColor(.white)
+                
+                       /* if let question = questions[dateFormatter.string(from: Date())] {
                             Text(question)
                                 .font(.title)
                                 .foregroundColor(.white)
@@ -51,7 +55,7 @@ struct Question: View {
                             Text("No question found for today.")
                                 .font(.title)
                                 .foregroundColor(.white)
-                        }
+                        }*/
                     }
                 }
         .padding(.vertical, 20)
