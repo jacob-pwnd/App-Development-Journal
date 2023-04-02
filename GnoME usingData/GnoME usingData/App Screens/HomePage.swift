@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  HomePage.swift
 //  GnoME usingData
 //
-//  Created by user232149 on 3/31/23.
+//  Created by user232149 on 4/1/23.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomePage: View {
     var body: some View {
         ZStack{
             
@@ -47,24 +47,15 @@ struct ContentView: View {
                     .padding(.top, 3)
                 }//End of Banner
                 
-                /*HStack {
-                    Text("Navigation Bar")
-                }
-            .padding(.bottom, 20) // adjust the amount of padding as desired
-            .frame(maxWidth: .infinity)
-            .background(Color.white)
-            .border(Color.gray, width: 1)*/
+               
         }
             }
            
-        }
-    
-        
-    }
+        }    
+}
 
-
-struct ContentView_Previews: PreviewProvider {
+struct HomePage_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomePage()
     }
 }

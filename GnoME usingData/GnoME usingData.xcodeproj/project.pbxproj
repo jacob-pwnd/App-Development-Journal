@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		378779E329D90ABC00F8A2BA /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378779E229D90ABC00F8A2BA /* HomePage.swift */; };
+		378779E629D92CE900F8A2BA /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378779E529D92CE900F8A2BA /* Profile.swift */; };
+		378779E829D92D9400F8A2BA /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378779E729D92D9400F8A2BA /* Game.swift */; };
+		378779EC29D950BC00F8A2BA /* Old Post 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378779EB29D950BC00F8A2BA /* Old Post 1.swift */; };
+		378779EE29D9562E00F8A2BA /* Old Post 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378779ED29D9562E00F8A2BA /* Old Post 2.swift */; };
 		3793293B29D7EB3700C5A86F /* GnoME_usingDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3793293A29D7EB3700C5A86F /* GnoME_usingDataApp.swift */; };
 		3793293D29D7EB3700C5A86F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3793293C29D7EB3700C5A86F /* ContentView.swift */; };
 		3793293F29D7EB3800C5A86F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3793293E29D7EB3800C5A86F /* Assets.xcassets */; };
@@ -18,6 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		378779E229D90ABC00F8A2BA /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		378779E529D92CE900F8A2BA /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		378779E729D92D9400F8A2BA /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		378779EB29D950BC00F8A2BA /* Old Post 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Old Post 1.swift"; sourceTree = "<group>"; };
+		378779ED29D9562E00F8A2BA /* Old Post 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Old Post 2.swift"; sourceTree = "<group>"; };
 		3793293729D7EB3700C5A86F /* GnoME usingData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GnoME usingData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3793293A29D7EB3700C5A86F /* GnoME_usingDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnoME_usingDataApp.swift; sourceTree = "<group>"; };
 		3793293C29D7EB3700C5A86F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +52,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		378779E429D90FA000F8A2BA /* App Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3793293C29D7EB3700C5A86F /* ContentView.swift */,
+				378779E529D92CE900F8A2BA /* Profile.swift */,
+				378779E729D92D9400F8A2BA /* Game.swift */,
+				378779E229D90ABC00F8A2BA /* HomePage.swift */,
+			);
+			path = "App Screens";
+			sourceTree = "<group>";
+		};
 		3793292E29D7EB3700C5A86F = {
 			isa = PBXGroup;
 			children = (
@@ -61,9 +82,11 @@
 		3793293929D7EB3700C5A86F /* GnoME usingData */ = {
 			isa = PBXGroup;
 			children = (
-				3793293C29D7EB3700C5A86F /* ContentView.swift */,
+				378779E429D90FA000F8A2BA /* App Screens */,
 				37E014E029D8C5E9007845D8 /* Question.swift */,
 				37E014DA29D88B12007845D8 /* BlakePost.swift */,
+				378779EB29D950BC00F8A2BA /* Old Post 1.swift */,
+				378779ED29D9562E00F8A2BA /* Old Post 2.swift */,
 				3793293A29D7EB3700C5A86F /* GnoME_usingDataApp.swift */,
 				3793293E29D7EB3800C5A86F /* Assets.xcassets */,
 				3793294029D7EB3800C5A86F /* GnoME_usingData.entitlements */,
@@ -154,11 +177,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				37E014DB29D88B12007845D8 /* BlakePost.swift in Sources */,
+				378779E829D92D9400F8A2BA /* Game.swift in Sources */,
+				378779E629D92CE900F8A2BA /* Profile.swift in Sources */,
 				37E014DF29D8BF6A007845D8 /* FriendPosts.swift in Sources */,
 				3793294B29D7EC0800C5A86F /* Model.swift in Sources */,
+				378779EE29D9562E00F8A2BA /* Old Post 2.swift in Sources */,
 				37E014E129D8C5E9007845D8 /* Question.swift in Sources */,
 				3793293D29D7EB3700C5A86F /* ContentView.swift in Sources */,
+				378779E329D90ABC00F8A2BA /* HomePage.swift in Sources */,
 				3793293B29D7EB3700C5A86F /* GnoME_usingDataApp.swift in Sources */,
+				378779EC29D950BC00F8A2BA /* Old Post 1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

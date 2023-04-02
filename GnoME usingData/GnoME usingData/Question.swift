@@ -30,7 +30,7 @@ struct Question: View {
                     .fill(Color(hue: 0.034, saturation: 0.807, brightness: 0.855))
                     .cornerRadius(15)
                     .padding(.vertical, -20)
-                    .frame(width: 360)
+                    .frame(width: 370)
                     .overlay(
                         RoundedRectangle(cornerRadius: 16)
                             .stroke(.black, lineWidth: 2)
