@@ -11,6 +11,7 @@
 		37553D6C29DA004C00F3ED48 /* NaysaPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37553D6B29DA004C00F3ED48 /* NaysaPost.swift */; };
 		37553D6F29DA049500F3ED48 /* JacobPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37553D6E29DA049500F3ED48 /* JacobPost.swift */; };
 		37553D7129DA061D00F3ED48 /* HannahPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37553D7029DA061C00F3ED48 /* HannahPost.swift */; };
+		37553D7329DA137700F3ED48 /* PlayGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37553D7229DA137700F3ED48 /* PlayGame.swift */; };
 		378779E329D90ABC00F8A2BA /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378779E229D90ABC00F8A2BA /* HomePage.swift */; };
 		378779E629D92CE900F8A2BA /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378779E529D92CE900F8A2BA /* Profile.swift */; };
 		378779E829D92D9400F8A2BA /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378779E729D92D9400F8A2BA /* Game.swift */; };
@@ -31,6 +32,7 @@
 		37553D6B29DA004C00F3ED48 /* NaysaPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaysaPost.swift; sourceTree = "<group>"; };
 		37553D6E29DA049500F3ED48 /* JacobPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JacobPost.swift; sourceTree = "<group>"; };
 		37553D7029DA061C00F3ED48 /* HannahPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HannahPost.swift; sourceTree = "<group>"; };
+		37553D7229DA137700F3ED48 /* PlayGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGame.swift; sourceTree = "<group>"; };
 		378779E229D90ABC00F8A2BA /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		378779E529D92CE900F8A2BA /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		378779E729D92D9400F8A2BA /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				378779E529D92CE900F8A2BA /* Profile.swift */,
 				378779E729D92D9400F8A2BA /* Game.swift */,
 				378779E229D90ABC00F8A2BA /* HomePage.swift */,
+				37553D7229DA137700F3ED48 /* PlayGame.swift */,
 			);
 			path = "App Screens";
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				378779EE29D9562E00F8A2BA /* Old Post 2.swift in Sources */,
 				37E014E129D8C5E9007845D8 /* Question.swift in Sources */,
 				3793293D29D7EB3700C5A86F /* ContentView.swift in Sources */,
+				37553D7329DA137700F3ED48 /* PlayGame.swift in Sources */,
 				378779E329D90ABC00F8A2BA /* HomePage.swift in Sources */,
 				37553D6F29DA049500F3ED48 /* JacobPost.swift in Sources */,
 				37553D6C29DA004C00F3ED48 /* NaysaPost.swift in Sources */,
