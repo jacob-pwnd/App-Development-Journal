@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3738476B29E483F200587F68 /* Sentiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738476A29E483F200587F68 /* Sentiment.swift */; };
 		37E4C8BD29E38A1A00DE2515 /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 37E4C8BC29E38A1A00DE2515 /* OpenAIKit */; };
 		37EEFDFF29E0941400C8D0A1 /* OpenAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EEFDFE29E0941400C8D0A1 /* OpenAIApp.swift */; };
 		37EEFE0129E0941400C8D0A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EEFE0029E0941400C8D0A1 /* ContentView.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3738476A29E483F200587F68 /* Sentiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentiment.swift; sourceTree = "<group>"; };
 		37EEFDFB29E0941400C8D0A1 /* OpenAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37EEFDFE29E0941400C8D0A1 /* OpenAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIApp.swift; sourceTree = "<group>"; };
 		37EEFE0029E0941400C8D0A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		37EEFDFD29E0941400C8D0A1 /* OpenAI */ = {
 			isa = PBXGroup;
 			children = (
+				3738476A29E483F200587F68 /* Sentiment.swift */,
 				37EEFDFE29E0941400C8D0A1 /* OpenAIApp.swift */,
 				37EEFE0029E0941400C8D0A1 /* ContentView.swift */,
 				37EEFE0229E0941400C8D0A1 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 			files = (
 				37EEFE0129E0941400C8D0A1 /* ContentView.swift in Sources */,
 				37EEFDFF29E0941400C8D0A1 /* OpenAIApp.swift in Sources */,
+				3738476B29E483F200587F68 /* Sentiment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

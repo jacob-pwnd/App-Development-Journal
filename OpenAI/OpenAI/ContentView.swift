@@ -16,7 +16,7 @@ final class ViewModel: ObservableObject {
     func setup() {
          openai = OpenAI(Configuration(
             organizationId: "Personal",
-            apiKey: ""
+            apiKey: "sk-yKUbo57K9XYdUcrEquwdT3BlbkFJAUi2XTVPz9YolQtWC3v"
         ))
     }
     
@@ -50,7 +50,7 @@ final class CompleteSentence: ObservableObject {
     func setup() {
          openai = OpenAI(Configuration(
             organizationId: "Personal",
-            apiKey: ""
+            apiKey: "sk-yKUbo57K9XYdUcrEquwdT3BlbkFJAUi2XTVPz9YolQtWC3v"
         ))
     }
     func generateSentence(prompt: String) async -> String? {
@@ -60,7 +60,7 @@ final class CompleteSentence: ObservableObject {
         do {
             let completionParameter = CompletionParameters(
                 model: "text-davinci-001",
-                prompt: ["prompt"],
+                prompt: [prompt],
                 maxTokens: 4,
                 temperature: 0.98
             )
@@ -76,42 +76,6 @@ final class CompleteSentence: ObservableObject {
     }
 }
 
-final class SentimentAnalyzer: ObservableObject {
-    private var openai: OpenAI?
-    
-    func setup() {
-        openai = OpenAI(Configuration(
-            organizationId: "your_org_id",
-            apiKey: "your_api_key"
-        ))
-    }
-    
-    func analyzeSentiment(prompt: String) async -> String? {
-        guard let openai = openai else {
-            return nil
-        }
-        do {
-            let completionParameter = CompletionParameters(
-                model: "text-davinci-002",
-                prompt: ["sentiment analysis:", prompt],
-                maxTokens: 1,
-                temperature: 0.0,
-                stop: ["\n"]
-            )
-            let completionResponse = try await openai.generateCompletion(
-                parameters: completionParameter
-            )
-            let sentimentValue = completionResponse.choices[0].text.trimmingCharacters(in: .whitespacesAndNewlines)
-            return sentimentValue
-        } catch {
-            print(String(describing: error))
-            return nil
-        }
-    }
-}
-
-
-
 
 struct ContentView: View {
     
@@ -120,11 +84,7 @@ struct ContentView: View {
     @State var text = ""
     @State var sentence = ""
     @State var image: UIImage?
-    /*
-    @State var sentimentResult = ""
-    @State var sentiment = ""
-    @ObservedObject var sentimentAnalyzer = SentimentAnalyzer()
-    */
+
     
     var body: some View {
         NavigationView {
@@ -134,7 +94,7 @@ struct ContentView: View {
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 250, height: 250)
-                }
+                }//Displays image when generated
                 
                 Spacer()
                 
@@ -153,13 +113,13 @@ struct ContentView: View {
                         }
                     }
                 }
-                
+                //End of Image Generation Section
                 Spacer()
                 Divider()
                 
                 TextField("Type partial sentence here...", text: $sentence)
                     .padding()
-                
+                //Where user types sentence
                 Button("Complete Sentence") {
                     if !sentence.trimmingCharacters(in: .whitespaces).isEmpty {
                         Task {
@@ -173,28 +133,11 @@ struct ContentView: View {
                     }
                 }
                 .padding(.bottom)
-                
-                Text(sentence)
-                
-        /*        TextField("Enter text to analyze", text: $sentiment)
-                    .padding()
-                
-                Button("Analyze Sentiment") {
-                    if !sentiment.trimmingCharacters(in: .whitespaces).isEmpty {
-                        Task {
-                            let result = await sentimentAnalyzer.analyzeSentiment(prompt: sentiment)
-                            if result == nil {
-                                print("Failed to analyze sentiment")
-                            }
-                            
-                            self.sentimentResult = result ?? ""
-                        }
-                    }
-                }
-                .padding(.bottom)
-                
-                Text(sentimentResult)
-         */
+                //Activates API call, text in field will be updated
+               
+                NavigationLink(destination: Sentiment()) {
+                    Text("Go to Sentiment View")}
+
             }
             .padding()
             .navigationTitle("OpenAI API Demos")
@@ -202,7 +145,7 @@ struct ContentView: View {
         .onAppear{
             viewModel.setup()
             completeSentence.setup()
-           //sentimentAnalyzer.setup()
+            //sets up API in all the classes when app starts
         }
     }
 }
